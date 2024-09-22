@@ -6,8 +6,9 @@
   height: 100vh;
 }
 #home .font-nav {
-  font-size: 12px;
+  font-size: 11px;
   color: #eee8df;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   #home img {
@@ -19,6 +20,26 @@
     margin-top: 25%;
     z-index: 9999;
   }
+}
+
+#sobre .config-sobre {
+  display: flex;
+}
+#sobre .perfil-sobre {
+  width: 40%;
+}
+#sobre .texto-sobre {
+  max-width: 90%;
+  padding-left: 20%;
+  text-align: right;
+}
+#sobre .texto-sobre > h6 {
+  color: #8b7758;
+}
+#sobre .texto-sobre > p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #828282;
 }
 
 /*# sourceMappingURL=style.css.map */

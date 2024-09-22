@@ -1,5 +1,5 @@
-
-
+$cor-principal-dourado: #8b7758;
+$cor-secundaria-cinza: #828282;
 #home {
     background-image: url("./img/SITEPrancheta\ 1.png"); // Caminho da sua imagem de fundo
     background-size: cover; // Faz a imagem cobrir toda a section
@@ -9,10 +9,10 @@
 
     // Estilização adicional para garantir legibilidade
     .font-nav {
-        font-size: 12px;
+        font-size: 11px;
         color: #eee8df;
+        font-weight: bold;
     }
-
 
     img {
         @media (min-width: 768px) {
@@ -21,6 +21,28 @@
         @media (max-width: 768px) {
             margin-top: 25%;
             z-index: 9999;
+        }
+    }
+}
+
+#sobre {
+    .config-sobre {
+        display: flex;
+    }
+    .perfil-sobre {
+        width: 40%
+    }
+    .texto-sobre {
+        max-width: 90%;
+        padding-left: 20%;
+        text-align: right;
+        > h6 {
+            color: $cor-principal-dourado;
+        }
+        > p {
+            font-size: 10px;
+            font-weight: bold;
+            color: $cor-secundaria-cinza;
         }
     }
 }
