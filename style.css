@@ -1,3 +1,24 @@
-
+#home {
+  background-image: url("./img/SITEPrancheta 1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#home .font-nav {
+  font-size: 12px;
+  color: #eee8df;
+}
+@media (min-width: 768px) {
+  #home img {
+    max-width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  #home img {
+    margin-top: 25%;
+    z-index: 9999;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
