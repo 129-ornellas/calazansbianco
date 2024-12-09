@@ -152,3 +152,24 @@ $cor-principal-rose: #f3eee5;
         background-color: $cor-principal-dourado; height: 2px; border: 0; 
     }
 }
+
+#redes-sociais{
+    background-image: url("./img/SITEPrancheta\ 3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .info-redes{
+        width: 100%;
+        
+    }
+    img{
+        @media (min-width: 768px) {
+            max-width: 30%;
+        }
+        @media (max-width: 768px) {
+            margin-top: 25%;
+            z-index: 9999;
+        }
+    }
+}

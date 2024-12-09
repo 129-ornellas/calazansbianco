@@ -150,4 +150,26 @@
   border: 0;
 }
 
+#redes-sociais {
+  background-image: url("./img/SITEPrancheta 3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#redes-sociais .info-redes {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #redes-sociais img {
+    max-width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  #redes-sociais img {
+    margin-top: 25%;
+    z-index: 9999;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
