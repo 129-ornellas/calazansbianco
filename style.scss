@@ -1,11 +1,11 @@
 $cor-principal-dourado: #8b7758;
 $cor-secundaria-cinza: #828282;
-$cor-principal-rose: #F3EEE5;
+$cor-principal-rose: #f3eee5;
 #home {
     background-image: url("./img/SITEPrancheta\ 1.png");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
 
     .font-nav {
@@ -26,7 +26,6 @@ $cor-principal-rose: #F3EEE5;
 }
 
 #sobre {
-    
     .config-sobre {
         display: flex;
     }
@@ -37,18 +36,18 @@ $cor-principal-rose: #F3EEE5;
         margin-top: 20%;
         background-color: transparent; // Fundo transparente
         text-align: center; // Centraliza o conteúdo, se necessário
-        .perfil{
+        .perfil {
             width: 70%;
         }
         > h6 {
             color: $cor-principal-dourado;
             font-weight: bold;
         }
-        .setas{
+        .setas {
             width: 40px;
         }
     }
-    .descricao-profissional{
+    .descricao-profissional {
         margin-top: 5%;
         margin-bottom: 15%;
         max-width: 70%;
@@ -74,11 +73,10 @@ $cor-principal-rose: #F3EEE5;
             font-weight: bold;
             color: $cor-secundaria-cinza;
         }
-        
     }
 }
 
-#servicos{
+#servicos {
     // height: 100vh;
     background-color: $cor-principal-rose;
     background-image: url("./img/SITEPrancheta\ 2.png");
@@ -91,7 +89,7 @@ $cor-principal-rose: #F3EEE5;
         font-size: 13px;
         font-weight: bold;
     }
-    .descricao-servico{
+    .descricao-servico {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -109,20 +107,48 @@ $cor-principal-rose: #F3EEE5;
             z-index: 9999;
         }
     }
-
 }
 
-#depoimentos{
-    color: #886F40;
+#depoimentos {
+    color: #886f40;
     background-color: $cor-principal-rose;
-    p{
+    p {
         color: #828282;
+        font-weight: bold;
     }
-    .texto-depoimentos{
+    .texto-depoimentos {
         display: flex;
-        padding: 10%;
-        .setas{
+        padding: 5%;
+        .setas {
             width: 40px;
         }
+    }
+}
+
+#dados {
+    color: $cor-secundaria-cinza;
+    p{
+        font-weight: bold;
+    }
+    h4 {
+        color: $cor-principal-dourado;
+    }
+    .texto-dados{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+    }
+    .dados-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5%;
+        
+    }
+    .dado-numerico{
+        font-size: 36px;
+    }
+    .linha-dado{
+        background-color: $cor-principal-dourado; height: 2px; border: 0; 
     }
 }

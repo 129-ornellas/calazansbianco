@@ -72,7 +72,7 @@
 }
 
 #servicos {
-  background-color: #F3EEE5;
+  background-color: #f3eee5;
   background-image: url("./img/SITEPrancheta 2.png");
   background-size: cover;
   background-position: center;
@@ -106,18 +106,48 @@
 }
 
 #depoimentos {
-  color: #886F40;
-  background-color: #F3EEE5;
+  color: #886f40;
+  background-color: #f3eee5;
 }
 #depoimentos p {
   color: #828282;
+  font-weight: bold;
 }
 #depoimentos .texto-depoimentos {
   display: flex;
-  padding: 10%;
+  padding: 5%;
 }
 #depoimentos .texto-depoimentos .setas {
   width: 40px;
+}
+
+#dados {
+  color: #828282;
+}
+#dados p {
+  font-weight: bold;
+}
+#dados h4 {
+  color: #8b7758;
+}
+#dados .texto-dados {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+#dados .dados-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+#dados .dado-numerico {
+  font-size: 36px;
+}
+#dados .linha-dado {
+  background-color: #8b7758;
+  height: 2px;
+  border: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
