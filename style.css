@@ -26,7 +26,36 @@
   display: flex;
 }
 #sobre .perfil-sobre {
-  width: 40%;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+  background-color: transparent;
+  text-align: center;
+}
+#sobre .perfil-sobre .perfil {
+  width: 70%;
+}
+#sobre .perfil-sobre > h6 {
+  color: #8b7758;
+  font-weight: bold;
+}
+#sobre .perfil-sobre .setas {
+  width: 40px;
+}
+#sobre .descricao-profissional {
+  margin-top: 5%;
+  margin-bottom: 15%;
+  max-width: 70%;
+}
+#sobre .descricao-profissional > h6 {
+  color: #8b7758;
+  font-weight: bold;
+}
+#sobre .descricao-profissional > p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #828282;
 }
 #sobre .texto-sobre {
   max-width: 90%;
@@ -40,6 +69,55 @@
   font-size: 10px;
   font-weight: bold;
   color: #828282;
+}
+
+#servicos {
+  background-color: #F3EEE5;
+  background-image: url("./img/SITEPrancheta 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #ffffff;
+}
+#servicos p {
+  font-size: 13px;
+  font-weight: bold;
+}
+#servicos .descricao-servico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+}
+#servicos .descricao-servico p {
+  max-width: 60%;
+}
+@media (min-width: 768px) {
+  #servicos img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  #servicos img {
+    margin-top: 25%;
+    z-index: 9999;
+  }
+}
+
+#depoimentos {
+  color: #886F40;
+  background-color: #F3EEE5;
+}
+#depoimentos p {
+  color: #828282;
+}
+#depoimentos .texto-depoimentos {
+  display: flex;
+  padding: 10%;
+}
+#depoimentos .texto-depoimentos .setas {
+  width: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

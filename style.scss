@@ -1,13 +1,13 @@
 $cor-principal-dourado: #8b7758;
 $cor-secundaria-cinza: #828282;
+$cor-principal-rose: #F3EEE5;
 #home {
-    background-image: url("./img/SITEPrancheta\ 1.png"); // Caminho da sua imagem de fundo
-    background-size: cover; // Faz a imagem cobrir toda a section
-    background-position: center; // Centraliza a imagem
-    background-repeat: no-repeat; // Evita repetição da imagem
-    height: 100vh; // Define a altura da section para 100% da viewport
+    background-image: url("./img/SITEPrancheta\ 1.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
 
-    // Estilização adicional para garantir legibilidade
     .font-nav {
         font-size: 11px;
         color: #eee8df;
@@ -26,11 +26,41 @@ $cor-secundaria-cinza: #828282;
 }
 
 #sobre {
+    
     .config-sobre {
         display: flex;
     }
     .perfil-sobre {
-        width: 40%
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        margin-top: 20%;
+        background-color: transparent; // Fundo transparente
+        text-align: center; // Centraliza o conteúdo, se necessário
+        .perfil{
+            width: 70%;
+        }
+        > h6 {
+            color: $cor-principal-dourado;
+            font-weight: bold;
+        }
+        .setas{
+            width: 40px;
+        }
+    }
+    .descricao-profissional{
+        margin-top: 5%;
+        margin-bottom: 15%;
+        max-width: 70%;
+        > h6 {
+            color: $cor-principal-dourado;
+            font-weight: bold;
+        }
+        > p {
+            font-size: 10px;
+            font-weight: bold;
+            color: $cor-secundaria-cinza;
+        }
     }
     .texto-sobre {
         max-width: 90%;
@@ -43,6 +73,56 @@ $cor-secundaria-cinza: #828282;
             font-size: 10px;
             font-weight: bold;
             color: $cor-secundaria-cinza;
+        }
+        
+    }
+}
+
+#servicos{
+    // height: 100vh;
+    background-color: $cor-principal-rose;
+    background-image: url("./img/SITEPrancheta\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff;
+    p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .descricao-servico{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15%;
+        p {
+            max-width: 60%;
+        }
+    }
+    img {
+        @media (min-width: 768px) {
+            max-width: 80%;
+        }
+        @media (max-width: 768px) {
+            margin-top: 25%;
+            z-index: 9999;
+        }
+    }
+
+}
+
+#depoimentos{
+    color: #886F40;
+    background-color: $cor-principal-rose;
+    p{
+        color: #828282;
+    }
+    .texto-depoimentos{
+        display: flex;
+        padding: 10%;
+        .setas{
+            width: 40px;
         }
     }
 }
