@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #home {
   background-image: url("./img/SITEPrancheta 1.png");
   background-size: cover;
@@ -161,6 +162,7 @@
   margin-top: 25%;
   display: flex;
   align-items: center;
+  text-align: right;
 }
 @media (min-width: 768px) {
   #redes-sociais img {
@@ -172,6 +174,74 @@
     margin-top: 25%;
     z-index: 9999;
   }
+}
+
+#contato {
+  margin-top: 5%;
+}
+#contato h6 {
+  color: #8b7758;
+}
+#contato .fonte-contato {
+  font-size: 11px;
+}
+#contato .img-icons {
+  width: 30px;
+}
+#contato .input-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+}
+#contato .input-container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 96%;
+  width: 5px;
+  background-color: #8b7758; /* Cor da barra */
+  border-radius: 10px;
+}
+#contato .input-container input,
+#contato .input-container textarea {
+  width: 100%;
+  padding: 10px 10px 10px 15px; /* Espaço extra para a barra */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+}
+#contato .input-container input::placeholder,
+#contato .input-container textarea::placeholder {
+  color: #828282;
+  font-weight: bold;
+}
+#contato button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#contato button:hover {
+  background-color: #0056b3;
+}
+#contato iframe {
+  filter: grayscale(100%) brightness(1);
+  color: #886f40;
+}
+
+#rodape {
+  background-image: url("./img/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
 }
 
 /*# sourceMappingURL=style.css.map */
