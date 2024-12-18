@@ -159,13 +159,16 @@ $cor-principal-rose: #f3eee5;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    .info-redes{
-        width: 100%;
+
+    .redes{
+        margin-top: 25%;
+        display: flex;
+        align-items: center;
         
     }
     img{
         @media (min-width: 768px) {
-            max-width: 30%;
+            max-width: 80%;
         }
         @media (max-width: 768px) {
             margin-top: 25%;

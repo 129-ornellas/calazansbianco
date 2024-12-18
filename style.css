@@ -157,12 +157,14 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
-#redes-sociais .info-redes {
-  width: 100%;
+#redes-sociais .redes {
+  margin-top: 25%;
+  display: flex;
+  align-items: center;
 }
 @media (min-width: 768px) {
   #redes-sociais img {
-    max-width: 30%;
+    max-width: 80%;
   }
 }
 @media (max-width: 768px) {
