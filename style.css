@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 100vh;
 }
 #home .font-nav {
@@ -92,7 +93,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 15%;
-  padding: 15px;
+  padding: 140px;
 }
 #servicos .descricao-servico .p-descricao {
   max-width: 60%;
@@ -143,7 +144,7 @@
 #dados .dados-info {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 5%;
 }
 #dados .dado-numerico {
@@ -158,7 +159,6 @@
 #redes-sociais {
   background-image: url("./img/SITEPrancheta 3.png");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -167,6 +167,7 @@
   display: flex;
   align-items: center;
   text-align: right;
+  justify-content: center;
 }
 @media (min-width: 768px) {
   #redes-sociais img {

@@ -6,6 +6,7 @@ $cor-principal-rose: #f3eee5;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 100%;
     height: 100vh;
 
     .font-nav {
@@ -98,7 +99,7 @@ $cor-principal-rose: #f3eee5;
         flex-direction: column;
         justify-content: center;
         padding-left: 15%;
-        padding: 15px;
+        padding: 140px;
         
         .p-descricao{
             max-width: 60%;
@@ -149,7 +150,7 @@ $cor-principal-rose: #f3eee5;
     .dados-info {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         margin-top: 5%;
     }
     .dado-numerico {
@@ -165,7 +166,7 @@ $cor-principal-rose: #f3eee5;
 #redes-sociais {
     background-image: url("./img/SITEPrancheta\ 3.png");
     background-size: cover;
-    background-position: center;
+    // background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
 
@@ -174,6 +175,7 @@ $cor-principal-rose: #f3eee5;
         display: flex;
         align-items: center;
         text-align: right;
+        justify-content: center;
     }
     img {
         @media (min-width: 768px) {
