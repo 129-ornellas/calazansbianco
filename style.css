@@ -114,7 +114,6 @@
 }
 @media (max-width: 768px) {
   #servicos img {
-    margin-top: 25%;
     z-index: 9999;
   }
 }
