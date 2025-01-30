@@ -90,7 +90,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   color: #ffffff;
 }
 #servicos p {
@@ -114,6 +114,7 @@
 }
 @media (max-width: 768px) {
   #servicos img {
+    margin-bottom: 25%;
     z-index: 9999;
   }
 }
